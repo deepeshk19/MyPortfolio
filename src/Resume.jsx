@@ -7,7 +7,7 @@ export const Resume = () => {
       <div className="resume-container">
         <h1>Resume</h1>
         <p>Download my resume to preview my work experience and skills.</p>
-        <a href="/Deepeshkunkulol_Resume.pdf" download className="download-link">
+        <a href="/MyPortfolio/Deepeshkunkulol_Resume.pdf" download="Deepeshkunkulol_Resume.pdf">
           <button className="download-button">Download Resume</button>
         </a>
       </div>
