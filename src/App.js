@@ -10,7 +10,7 @@ import { Contact } from "./Contact";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/MyPortfolioApp">
+      <BrowserRouter basename="/MyPortfolio">
         <Navbar />
         <Routes>
           <Route path="/" element={<About />} /> {/* Default Route */}
