@@ -13,11 +13,12 @@ function App() {
       <BrowserRouter basename="/MyPortfolioApp">
         <Navbar />
         <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Project />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<About />} /> {/* Default Route */}
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Project />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="resume" element={<Resume />} />
+          <Route path="contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
     </div>
