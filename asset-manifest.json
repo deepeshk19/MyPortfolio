@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/deepeshk19/MyPortfolio/static/css/main.2624e4ef.css",
+    "main.js": "/deepeshk19/MyPortfolio/static/js/main.2e31a557.js",
+    "static/js/453.1407b060.chunk.js": "/deepeshk19/MyPortfolio/static/js/453.1407b060.chunk.js",
+    "index.html": "/deepeshk19/MyPortfolio/index.html",
+    "main.2624e4ef.css.map": "/deepeshk19/MyPortfolio/static/css/main.2624e4ef.css.map",
+    "main.2e31a557.js.map": "/deepeshk19/MyPortfolio/static/js/main.2e31a557.js.map",
+    "453.1407b060.chunk.js.map": "/deepeshk19/MyPortfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2624e4ef.css",
+    "static/js/main.2e31a557.js"
+  ]
+}
