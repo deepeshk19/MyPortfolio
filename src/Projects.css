@@ -1,0 +1,113 @@
+/* Projects Section with Gradient Background */
+.projects-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px; /* Reduce top padding */
+    background: linear-gradient(135deg, #1e1e1e, #2a2a72);
+    min-height: 100vh;
+    margin-top: -100px; /* Pull section upwards */
+}
+
+/* Projects Container with Glassmorphism */
+.projects-container {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+    margin-top: -20px; /* Adjust for navbar spacing */
+    background: rgba(255, 255, 255, 0.1); /* Glass effect */
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for slight lift */
+.projects-container:hover {
+    transform: scale(1.05);
+}
+
+/* Title Styling */
+.projects-title {
+    font-size: 2.5rem;
+    color: #ffcc70;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px rgba(255, 204, 112, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Project Grid Layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+/* Project Card Styling */
+.project-card {
+    background: rgba(255, 255, 255, 0.15); /* Glassmorphism effect */
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Hover Effect */
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 20px rgba(255, 204, 112, 0.4);
+}
+
+/* Project Title */
+.project-card h3 {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 1.3rem;
+}
+
+/* Description Styling */
+.project-card p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin-top: 10px;
+}
+
+/* Subtle fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply the fade-in effect */
+.projects-container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+}
